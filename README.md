@@ -7,7 +7,7 @@ This Python class is designed to model simple crop yields.
 The Crop class is initialized with NFert for Nitrogen Fertilizer (int), irrigation (boolean) and 
 rainAmt for the amount of rain received per month (float).
 
-*rainfall*
+*rainfall*\nl
 Creates a single random float value from a gaussian distribution for rainfall amount centered at 50 cm with a standard deviation
 of 20 cm. If a randomly generated number is below 0, the value is set to zero, because negative 
 rainfall makes no sense. 
